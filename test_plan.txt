@@ -1,0 +1,81 @@
+Test Plan for "Rent a Car" Functionality - Lyft
+
+1. Introduction:
+Scope: This test plan covers the testing of the "Rent a Car" feature on the Lyft website.
+Objective: To ensure the functionality is working as expected, providing users with a seamless car rental experience.
+
+2. Features to Be Tested:
+User Registration and Login
+Vehicle Selection and Reservation
+Rental Confirmation and Payment
+Cancellation Process
+Error Handling and Validation
+
+3. Test Environment:
+Website URL: https://www.lyft.com/rider/rentals
+Browsers: Chrome, Firefox, Edge
+Operating Systems: Windows, macOS
+Devices: Desktop and Mobile
+
+4. Testing Approach:
+Manual Testing: Initial testing will be conducted manually.
+Automation Testing: Consider automation for repetitive and critical test cases.
+Functional Testing: Ensure all features work as intended.
+Usability Testing: Evaluate the user-friendliness of the interface.
+Performance Testing: Evaluate system response times.
+
+5. Test Scenarios:
+Positive and negative scenarios will be tested, including but not limited to:
+User registration and login process.
+Selecting a vehicle and completing a reservation.
+Testing payment processing.
+Handling various error conditions.
+
+6. Test Data:
+Test data for different vehicle types, user profiles, and payment methods will be used during testing.
+
+7. Risks and Assumptions:
+Risk: Service unavailability, payment gateway issues.
+Assumption: The website and payment gateway are operational during testing.
+
+8. Test Deliverables:
+Test cases and scripts
+Bug reports with screenshots and details
+Test summary report
+
+9. Schedule:
+Test execution timeline
+Reporting and bug-fixing phases
+
+10. Responsibilities:
+Define roles and responsibilities of testing team members.
+
+11. Exit Criteria:
+Specific criteria for successful completion of testing.
+
+12. Approval:
+Sign-off from stakeholders for test plan completion.
+
+Critical Test Scenarios:
+
+Positive Scenario:
+Scenario: User Successfully Rents a Car
+
+Preconditions: User is registered and logged in, available vehicles are listed.
+Steps:
+Select a vehicle.
+Choose rental dates and times.
+Provide payment details.
+Confirm the reservation.
+Expected Result: The user receives a confirmation of the reservation and the car is successfully booked.
+
+Negative Scenario:
+Scenario: User Attempts to Rent a Car with Insufficient Funds
+
+Preconditions: User is registered and logged in, available vehicles are listed.
+Steps:
+Select a vehicle.
+Choose rental dates and times.
+Provide payment details with an account having insufficient funds.
+Confirm the reservation.
+Expected Result: The system should display an error message indicating the payment failure due to insufficient funds.
